@@ -39,9 +39,93 @@ const Home = () => {
             />
           </View>
         </View>
-        <TouchableOpacity onPress={() => navigation.openDrawer()}>
-          <Text>ok</Text>
-        </TouchableOpacity>
+        <View style={styles.scrlmaincontainer}>
+          <ScrollView horizontal={true}>
+            <View style={styles.scrolviewconatainer}>
+              <View style={styles.teamimage}>
+                <Image
+                  style={{width: '100%', height: '100%'}}
+                  source={images.sajjad}
+                />
+              </View>
+            </View>
+            <View style={styles.scrolviewconatainer}>
+              <View style={styles.teamimage}>
+                <Image
+                  style={{width: '100%', height: '100%'}}
+                  source={images.sajjad}
+                />
+              </View>
+            </View>
+            <View style={styles.scrolviewconatainer}>
+              <View style={styles.teamimage}>
+                <Image
+                  style={{width: '100%', height: '100%'}}
+                  source={images.sajjad}
+                />
+              </View>
+            </View>
+          </ScrollView>
+        </View>
+        <View style={styles.maincoincontainer}>
+          <View style={styles.coinmainbox}>
+            <View style={styles.coinlogobg}>
+              <Image source={images.BTC} />
+            </View>
+            <Text style={styles.coinpricetitle}>BTC price</Text>
+            <Text style={styles.coinprice}>$17009.74</Text>
+          </View>
+          <View style={styles.coinmainbox}>
+            <View style={styles.coinlogobg}>
+              <Image source={images.ETH} />
+            </View>
+            <Text style={styles.coinpricetitle}>ETH price</Text>
+            <Text style={styles.coinprice}>$17009.74</Text>
+          </View>
+          <View style={styles.coinmainbox}>
+            <View style={styles.coinlogobg}>
+              <Image source={images.BNB} />
+            </View>
+            <Text style={styles.coinpricetitle}>BNB price</Text>
+            <Text style={styles.coinprice}>$17009.74</Text>
+          </View>
+          <View style={styles.coinmainbox}>
+            <View style={styles.coinlogobgvect}>
+              <Image source={images.Vector} />
+            </View>
+            <Text style={styles.coinpricetitle}>BTC price</Text>
+            <Text style={styles.coinprice}>$17009.74</Text>
+          </View>
+        </View>
+        <View>
+          <View>
+            <Text style={styles.livehead}>Live Update</Text>
+          </View>
+          <View style={styles.scrlmaincontainer}>
+            <ScrollView
+              horizontal={true}
+              showsHorizontalScrollIndicator={false}>
+              <View style={styles.liveupademaincontainer}>
+                <View style={styles.livechilxontainer}>
+                  <Text style={styles.liveupdate}>BNB / BUSD </Text>
+                  <Text style={styles.liveupdateper}>+15%</Text>
+                </View>
+              </View>
+              <View style={styles.liveupademaincontainer}>
+                <View style={styles.livechilxontainer}>
+                  <Text style={styles.liveupdate}>USTD / BUSD </Text>
+                  <Text style={styles.liveupdateper}>+15%</Text>
+                </View>
+              </View>
+              <View style={styles.liveupademaincontainer}>
+                <View style={styles.livechilxontainer}>
+                  <Text style={styles.liveupdate}>ETH / BUSD </Text>
+                  <Text style={styles.liveupdateper}>+15%</Text>
+                </View>
+              </View>
+            </ScrollView>
+          </View>
+        </View>
       </ImageBackground>
     </SafeAreaView>
   );

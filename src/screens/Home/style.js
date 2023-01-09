@@ -20,8 +20,8 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   proimg: {
-    width: sizes.screenWidth * 0.15,
-    height: sizes.screenHeight * 0.07,
+    width: sizes.screenWidth * 0.22,
+    height: sizes.screenHeight * 0.1,
   },
   profilenamediv: {
     justifyContent: 'center',
@@ -48,5 +48,77 @@ export const styles = StyleSheet.create({
   },
   icondiv: {
     justifyContent: 'center',
+  },
+  teamimage: {
+    width: sizes.screenWidth,
+    height: sizes.screenHeight * 0.2,
+  },
+  scrolviewconatainer: {
+    marginHorizontal: sizes.screenWidth * 0.01,
+  },
+  scrlmaincontainer: {
+    paddingVertical: sizes.screenHeight * 0.02,
+  },
+  coinmainbox: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.coinbox,
+    width: sizes.screenWidth * 0.43,
+    // paddingVertical: 2,
+    height: sizes.screenHeight * 0.18,
+    borderRadius: sizes.screenWidth * 0.02,
+    marginHorizontal: sizes.screenWidth * 0.01,
+    marginVertical: sizes.screenHeight * 0.01,
+  },
+  coinlogobg: {
+    width: sizes.screenWidth * 0.14,
+    height: sizes.screenHeight * 0.05,
+    backgroundColor: colors.black,
+    marginVertical: sizes.screenHeight * 0.01,
+  },
+  coinlogobgvect: {
+    width: sizes.screenWidth * 0.14,
+    height: sizes.screenHeight * 0.05,
+    backgroundColor: colors.black,
+    marginVertical: sizes.screenHeight * 0.01,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  coinpricetitle: {
+    color: colors.white,
+    fontSize: fontSize.regular,
+    fontWeight: '700',
+    marginVertical: sizes.screenHeight * 0.001,
+  },
+  coinprice: {
+    color: colors.cointext,
+    fontSize: fontSize.regular,
+    fontWeight: '400',
+    marginVertical: sizes.screenHeight * 0.01,
+  },
+  maincoincontainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
+  livehead: {
+    color: colors.white,
+    fontSize: fontSize.regular,
+    fontWeight: '700',
+  },
+  livechilxontainer: {
+    flexDirection: 'row',
+  },
+  liveupdate: {
+    color: colors.white,
+    fontSize: fontSize.small,
+    fontWeight: '500',
+  },
+  liveupdateper: {
+    color: colors.green,
+    fontSize: fontSize.small,
+    fontWeight: '500',
+  },
+  liveupademaincontainer: {
+    width: sizes.screenWidth * 0.4,
   },
 });

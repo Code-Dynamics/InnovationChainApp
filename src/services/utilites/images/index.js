@@ -9,6 +9,11 @@ import intrisliderfirstimage from '../../../assets/intrisliderfirstimage.png';
 import introslidersecondimage from '../../../assets/introslidersecondimage.png';
 import introsliderthreeimage from '../../../assets/introsliderthreeimage.png';
 import profile from '../../../assets/profile.png';
+import sajjad from '../../../assets/sajjad.jpg';
+import BTC from '../../../assets/BTC.png';
+import ETH from '../../../assets/ETH.png';
+import BNB from '../../../assets/BNB.png';
+import Vector from '../../../assets/Vector.png';
 const images = {
   background,
   icon,
@@ -21,5 +26,10 @@ const images = {
   introslidersecondimage,
   introsliderthreeimage,
   profile,
+  sajjad,
+  BTC,
+  ETH,
+  BNB,
+  Vector,
 };
 export default images;

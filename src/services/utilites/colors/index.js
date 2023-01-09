@@ -36,4 +36,7 @@ export const colors = {
   dot: '#737373',
   tab: '#191D23',
   notify: '#FDFDFD',
+  coinbox: '#191D23',
+  cointext: '#FF0000',
+  green: '#00FF0A',
 };

@@ -14,23 +14,28 @@ import images from '../../services/utilites/images';
 import {styles} from './style';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground source={images.background} style={styles.bg}>
         <View style={styles.profilediv}>
-          <View style={styles.profileInnerdiv}>
+          <TouchableOpacity
+            style={styles.profileInnerdiv}
+            onPress={() => navigation.openDrawer()}>
             <View style={styles.proimg}>
               <Image
                 style={{width: '100%', height: '100%'}}
                 source={images.profile}
               />
             </View>
-            <View style={styles.profilenamediv}>
-              <Text style={styles.profilewellcome}>Welcome back</Text>
-              <Text style={styles.profilename}>Sophia Calzoni</Text>
+            <View style={styles.profileInnerdiv}>
+              <View style={styles.profilenamediv}>
+                <Text style={styles.profilewellcome}>Welcome back</Text>
+                <Text style={styles.profilename}>Sophia Calzoni</Text>
+              </View>
             </View>
-          </View>
+          </TouchableOpacity>
+
           <View style={styles.icondiv}>
             <Ionicons
               name="md-notifications"

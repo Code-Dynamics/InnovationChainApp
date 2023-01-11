@@ -14,6 +14,12 @@ import BTC from '../../../assets/BTC.png';
 import ETH from '../../../assets/ETH.png';
 import BNB from '../../../assets/BNB.png';
 import Vector from '../../../assets/Vector.png';
+import featurs from '../../../assets/featurs.png';
+import spots from '../../../assets/spots.png';
+import help from '../../../assets/help.png';
+import support from '../../../assets/support.png';
+import terms from '../../../assets/terms.png';
+import logout from '../../../assets/logout.png';
 const images = {
   background,
   icon,
@@ -31,5 +37,11 @@ const images = {
   ETH,
   BNB,
   Vector,
+  featurs,
+  spots,
+  help,
+  support,
+  terms,
+  logout,
 };
 export default images;

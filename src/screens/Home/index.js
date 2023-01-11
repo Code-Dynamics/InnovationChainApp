@@ -13,15 +13,20 @@ import Button from '../../components/Button';
 import images from '../../services/utilites/images';
 import {styles} from './style';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
-const Home = ({navigation}) => {
+import {useNavigation} from '@react-navigation/native';
+import {DrawerActions} from '@react-navigation/native';
+const Home = () => {
+  const navigation = useNavigation();
+  // const open = () => {
+  //   openDrawer();
+  // };
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground source={images.background} style={styles.bg}>
         <View style={styles.profilediv}>
           <TouchableOpacity
             style={styles.profileInnerdiv}
-            onPress={() => navigation.openDrawer()}>
+            onPress={() => navigation.dispatch(DrawerActions.toggleDrawer())}>
             <View style={styles.proimg}>
               <Image
                 style={{width: '100%', height: '100%'}}
@@ -102,7 +107,7 @@ const Home = ({navigation}) => {
             <Text style={styles.coinprice}>$17009.74</Text>
           </View>
         </View>
-        <View>
+        <View style={styles.liveupdtecontainer}>
           <View>
             <Text style={styles.livehead}>Live Update</Text>
           </View>

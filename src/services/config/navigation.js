@@ -5,6 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {
   ACCOUNT,
   Course,
+  CreatAcouunt,
   Home,
   IntroSliderScreen,
   Spot,
@@ -24,6 +25,7 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {fontSize} from '../utilites/fonts';
 import {styles} from './style';
+import {CustomDrawer} from '../../components';
 
 const Stack = createNativeStackNavigator();
 
@@ -33,9 +35,10 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        {/* <Stack.Screen name="introslder" component={IntroSliderScreen} />
+        <Stack.Screen name="introslder" component={IntroSliderScreen} />
         <Stack.Screen name="SignIn" component={SignIn} />
-        <Stack.Screen name="Welcome" component={Welcome} /> */}
+        <Stack.Screen name="Welcome" component={Welcome} />
+        <Stack.Screen name="createaccount" component={CreatAcouunt} />
         {/* <Stack.Screen name="Btab" component={MyTabs} /> */}
         <Stack.Screen name="drawer" component={MyDrawer} />
       </Stack.Navigator>
@@ -162,6 +165,7 @@ const MyTabs = () => {
 const MyDrawer = () => {
   return (
     <Drawer.Navigator
+      drawerContent={props => <CustomDrawer {...props} />}
       screenOptions={{
         headerShown: false,
       }}>

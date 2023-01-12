@@ -6,6 +6,7 @@ import Spot from './spots';
 import Statistic from './statistic';
 import SuppportChat from './support';
 import PhoneNumber from './PhoneNumber';
+import VerifyCode from './VerifyCode';
 export {
   IntroSliderScreen,
   Home,
@@ -15,4 +16,5 @@ export {
   ACCOUNT,
   Spot,
   PhoneNumber,
+  VerifyCode
 };

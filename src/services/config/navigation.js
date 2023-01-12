@@ -10,6 +10,7 @@ import {
   Spot,
   Statistic,
   SuppportChat,
+  PhoneNumber
 } from '../../screens';
 import Welcome from '../../screens/welcome';
 import SignIn from '../../screens/SignIn';
@@ -33,6 +34,7 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
+        <Stack.Screen name="PhoneNumber" component={PhoneNumber} />
         <Stack.Screen name="introslder" component={IntroSliderScreen} />
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="Welcome" component={Welcome} />

@@ -5,7 +5,7 @@ import IntroSliderScreen from './introslider';
 import Spot from './spots';
 import Statistic from './statistic';
 import SuppportChat from './support';
-
+import PhoneNumber from './PhoneNumber';
 export {
   IntroSliderScreen,
   Home,
@@ -14,4 +14,5 @@ export {
   SuppportChat,
   ACCOUNT,
   Spot,
+  PhoneNumber,
 };

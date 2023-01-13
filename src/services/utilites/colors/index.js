@@ -40,4 +40,5 @@ export const colors = {
   cointext: '#FF0000',
   green: '#00FF0A',
   fieldbg: '#191D23',
+  screbackcolor: '#1E1E1',
 };

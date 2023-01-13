@@ -39,7 +39,7 @@ const Navigation = () => {
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="Welcome" component={Welcome} />
         <Stack.Screen name="createaccount" component={CreatAcouunt} />
-        {/* <Stack.Screen name="Btab" component={MyTabs} /> */}
+        <Stack.Screen name="Btab" component={MyTabs} />
         <Stack.Screen name="drawer" component={MyDrawer} />
       </Stack.Navigator>
     </NavigationContainer>
@@ -60,6 +60,7 @@ const MyTabs = () => {
           paddingBottom: sizes.screenWidth * 0.05,
           color: colors.primary,
           position: 'absolute',
+          borderTopColor: colors.tab,
         },
       }}>
       <Tab.Screen

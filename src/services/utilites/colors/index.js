@@ -41,4 +41,5 @@ export const colors = {
   green: '#00FF0A',
   fieldbg: '#191D23',
   screbackcolor: '#1E1E1',
+  cardtext: '#F4F3FD',
 };

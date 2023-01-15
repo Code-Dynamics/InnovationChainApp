@@ -53,9 +53,9 @@ export const styles = StyleSheet.create({
     color: colors.black,
   },
   dwerlistexwhite: {
-    fontSize: fontSize.h5,
+    fontSize: fontSize.regular,
     paddingHorizontal: sizes.screenWidth * 0.02,
-    fontWeight: '600',
+    // fontWeight: '600',
     color: Colors.white,
   },
   listbut: {

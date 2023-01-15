@@ -31,8 +31,10 @@ import youtube from '../../../assets/youtube.png';
 import facebook from '../../../assets/facebook.png';
 import rate from '../../../assets/rate.png';
 import telegram from '../../../assets/telegram.png';
+import cardimage from '../../../assets/cardimage.png';
 
 const images = {
+  cardimage,
   tipstrick,
   background,
   icon,

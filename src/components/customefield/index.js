@@ -11,6 +11,9 @@ export const CustomTextFiel = ({
   secureTextEntry,
   editable,
   type,
+  right,
+  left,
+  placeholder,
 }) => {
   return (
     //   <View style={styles.container}>
@@ -27,6 +30,11 @@ export const CustomTextFiel = ({
         editable={editable}
         keyboardType={type}
         style={styles.textstyle}
+        right={right}
+        left={left}
+        textColor={colors.white}
+        placeholder={placeholder}
+        placeholderTextColor={colors.white}
       />
     </View>
   );

@@ -47,7 +47,7 @@ const SlideTow = () => {
           <Button
             title={'Create an account'}
             onPress={() => {
-              navigation.navigate('createaccount');
+              navigation.navigate('Creataccount');
             }}
           />
         </View>

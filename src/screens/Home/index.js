@@ -50,7 +50,7 @@ const Home = () => {
           </View>
         </View>
         <View style={styles.scrlmaincontainer}>
-          <ScrollView horizontal={true}>
+          <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
             <View style={styles.scrolviewconatainer}>
               <View style={styles.teamimage}>
                 <Image

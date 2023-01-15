@@ -11,6 +11,8 @@ import {
   Spot,
   Statistic,
   SuppportChat,
+  PhoneNumber,
+  VerifyCode,
 } from '../../screens';
 import Welcome from '../../screens/welcome';
 import SignIn from '../../screens/SignIn';
@@ -38,7 +40,9 @@ const Navigation = () => {
         <Stack.Screen name="introslder" component={IntroSliderScreen} />
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="Welcome" component={Welcome} />
-        <Stack.Screen name="createaccount" component={CreatAcouunt} />
+        <Stack.Screen name="Creataccount" component={CreatAcouunt} />
+        <Stack.Screen name="VerifyCode" component={VerifyCode} />
+        <Stack.Screen name="PhoneNumber" component={PhoneNumber} />
         <Stack.Screen name="Btab" component={MyTabs} />
         <Stack.Screen name="drawer" component={MyDrawer} />
       </Stack.Navigator>

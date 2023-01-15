@@ -81,7 +81,7 @@ const CustomDrawer = props => {
             <View>
               <Image source={images.terms} />
             </View>
-            <Text style={styles.dwerlistexwhite}>Trems & Conditions</Text>
+            <Text style={styles.dwerlistexwhite}>Terms & Conditions</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.singleviewlis}>

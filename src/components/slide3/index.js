@@ -12,6 +12,7 @@ import Button from '../Button';
 import Octicons from 'react-native-vector-icons/Octicons';
 import {styles} from './style';
 import {useNavigation} from '@react-navigation/native';
+import {sizes} from '../../services';
 const SlideThree = () => {
   const navigation = useNavigation();
   return (
@@ -35,18 +36,18 @@ const SlideThree = () => {
           </Text>
         </View>
         <View style={styles.dotcontainer}>
-          <Text>
-            <Octicons name="dot-fill" size={30} style={styles.activedot} />
+          <Text style={{marginHorizontal: sizes.TinyMargin}}>
+            <Octicons name="dot-fill" size={30} style={styles.nonactivedot} />
           </Text>
           <Text>
-            <Octicons name="dot-fill" size={30} style={styles.nonactivedot} />
+            <Octicons name="dot-fill" size={30} style={styles.activedot} />
           </Text>
         </View>
         <View style={styles.butoncontainer}>
           <Button
             title={'Create an account'}
             onPress={() => {
-              navigation.navigate('createaccount');
+              navigation.navigate('Creataccount');
             }}
           />
         </View>

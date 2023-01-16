@@ -108,7 +108,7 @@ const Course = () => {
                 Popular ? styles.tabbuttonactive : styles.tabbuttonNonactive
               }
               onPress={popularTab}>
-              <Text style={styles.tabtext}>Poular</Text>
+              <Text style={styles.tabtext}>Popular</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={New ? styles.tabbuttonactive : styles.tabbuttonNonactive}

@@ -28,7 +28,6 @@ const CreatAcouunt = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground source={images.background} style={styles.bg}>
-        <Header />
         <View style={styles.center}>
           <View style={styles.creactaccountlogo}>
             <Image

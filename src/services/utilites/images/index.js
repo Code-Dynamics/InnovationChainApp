@@ -66,7 +66,7 @@ const images = {
   onlineBadge,
   grayLine,
   done,
-  chat
+  chat,
 
   featurs,
   spots,

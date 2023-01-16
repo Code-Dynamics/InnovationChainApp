@@ -14,6 +14,12 @@ import BTC from '../../../assets/BTC.png';
 import ETH from '../../../assets/ETH.png';
 import BNB from '../../../assets/BNB.png';
 import Vector from '../../../assets/Vector.png';
+import dashed from '../../../assets/dashed.png';
+import modal from '../../../assets/modal.png';
+import onlineBadge from '../../../assets/onlineBadge.png';
+import grayLine from '../../../assets/grayLine.png';
+import done from '../../../assets/done.png';
+import chat from '../../../assets/chat.png';
 const images = {
   background,
   icon,
@@ -31,5 +37,11 @@ const images = {
   ETH,
   BNB,
   Vector,
+  dashed,
+  modal,
+  onlineBadge,
+  grayLine,
+  done,
+  chat
 };
 export default images;

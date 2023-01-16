@@ -39,4 +39,5 @@ export const colors = {
   coinbox: '#191D23',
   cointext: '#FF0000',
   green: '#00FF0A',
+  modalBg: '#1F2630',
 };

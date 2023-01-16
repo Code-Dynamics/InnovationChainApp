@@ -1,27 +1,29 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import {
   Image,
   ImageBackground,
   SafeAreaView,
-  ScrollView,
   Text,
   TouchableOpacity,
   View,
 } from 'react-native';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import PhoneInput from 'react-native-phone-number-input';
+import Button from '../../components/Button';
+import {colors, sizes} from '../../services';
+import images from '../../services/utilites/images';
 import {styles} from './style';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
-const Header = () => {
+export default function Header({dark}) {
   return (
-    <View style={styles.hedercontainer}>
-      <View style={styles.sub}>
-        <MaterialIcons name="keyboard-arrow-left" style={styles.hedericon} />
-      </View>
-      <View style={styles.sub}>
-        <Text style={styles.headertititle}>Create account</Text>
-      </View>
-    </View>
+    <SafeAreaView>
+      <TouchableOpacity style={styles.iconTop}>
+        <MaterialIcons
+          name="keyboard-arrow-left"
+          color={dark ? colors.primary : colors.white}
+          size={25}
+        />
+      </TouchableOpacity>
+    </SafeAreaView>
   );
-};
-
-export default Header;
+}

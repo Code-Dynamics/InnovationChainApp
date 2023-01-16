@@ -1,5 +1,6 @@
 import ACCOUNT from './Account';
 import Course from './courses';
+import CreatAcouunt from './creataccountscreen';
 import Home from './Home';
 import IntroSliderScreen from './introslider';
 import Spot from './spots';
@@ -16,5 +17,6 @@ export {
   ACCOUNT,
   Spot,
   PhoneNumber,
-  VerifyCode
+  VerifyCode,
+  CreatAcouunt,
 };

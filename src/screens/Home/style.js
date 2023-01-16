@@ -121,4 +121,7 @@ export const styles = StyleSheet.create({
   liveupademaincontainer: {
     width: sizes.screenWidth * 0.4,
   },
+  liveupdtecontainer: {
+    paddingVertical: sizes.screenHeight * 0.03,
+  },
 });

@@ -11,7 +11,10 @@ import images from '../../services/utilites/images';
 import Button from '../Button';
 import Octicons from 'react-native-vector-icons/Octicons';
 import {styles} from './style';
+import {useNavigation} from '@react-navigation/native';
 const SlideTow = () => {
+  const navigation = useNavigation();
+
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground source={images.background} style={styles.bg}>
@@ -41,10 +44,19 @@ const SlideTow = () => {
           </Text>
         </View>
         <View style={styles.butoncontainer}>
-          <Button title={'Create an account'} />
+          <Button
+            title={'Create an account'}
+            onPress={() => {
+              navigation.navigate('Creataccount');
+            }}
+          />
         </View>
         <View style={styles.footerContainer}>
-          <Text style={styles.footertext}>
+          <Text
+            style={styles.footertext}
+            onPress={() => {
+              navigation.navigate('SignIn');
+            }}>
             Already have an account?{' '}
             <Text style={styles.footertextsigin}>Sign In</Text>
           </Text>

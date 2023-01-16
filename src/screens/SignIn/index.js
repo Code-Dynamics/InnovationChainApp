@@ -1,3 +1,4 @@
+import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {
   Image,
@@ -12,14 +13,15 @@ import images from '../../services/utilites/images';
 import {styles} from './style';
 
 export default function SignIn() {
+  const navigation = useNavigation();
   const createAccount = () => {
-    console.log('create acc');
+    navigation.navigate('createaccount');
   };
   const usePhoneNum = () => {
     console.log('use phone');
   };
   const signUp = () => {
-    console.log('skip login');
+    navigation.navigate('drawer');
   };
 
   return (

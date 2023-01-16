@@ -1,3 +1,4 @@
+import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {
   Image,
@@ -12,6 +13,7 @@ import Button from '../Button';
 
 import {styles} from './style';
 const SlideOne = () => {
+  const navigation = useNavigation();
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground source={images.background} style={styles.bg}>
@@ -33,7 +35,12 @@ const SlideOne = () => {
           </Text>
         </View>
         <View style={styles.butoncontainer}>
-          <Button title={'join now'} />
+          <Button
+            title={'join now'}
+            onPress={() => {
+              navigation.navigate('drawer');
+            }}
+          />
         </View>
       </ImageBackground>
     </SafeAreaView>

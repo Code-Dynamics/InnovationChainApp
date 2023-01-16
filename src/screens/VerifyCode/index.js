@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import Header from '../../components/Header';
+
 import {colors, sizes} from '../../services';
 import images from '../../services/utilites/images';
 import {styles} from './style';
@@ -18,6 +18,7 @@ import {
   useClearByFocusCell,
 } from 'react-native-confirmation-code-field';
 import VirtualKeyboard from 'react-native-virtual-keyboard';
+import {Header} from '../../components';
 
 export default function VerifyCode() {
   const CELL_COUNT = 4;

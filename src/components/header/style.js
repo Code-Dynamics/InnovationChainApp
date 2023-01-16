@@ -1,23 +1,10 @@
-import {StyleSheet} from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {colors, fontSize, sizes} from '../../services';
+import { StyleSheet } from 'react-native';
+import {colors, fontFamily, fontSize, sizes} from '../../services';
+import {height, width} from 'react-native-dimension';
 
 export const styles = StyleSheet.create({
-  hedercontainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  hedericon: {
-    color: colors.primary,
-    fontSize: fontSize.h4,
-  },
-  headertititle: {
-    color: colors.white,
-    fontSize: fontSize.medium,
-    bottom: sizes.screenHeight * 0.001,
-  },
-  sub: {
-    // backgroundColor: 'red',
-    alignItems: 'center',
-  },
-});
+iconTop:{
+    marginTop:sizes.screenHeight*0.05,
+    marginLeft:sizes.screenWidth*0.05
+}
+})

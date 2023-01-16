@@ -37,6 +37,7 @@ const Navigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
+
         <Stack.Screen name="introslder" component={IntroSliderScreen} />
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="Welcome" component={Welcome} />
@@ -44,6 +45,7 @@ const Navigation = () => {
         <Stack.Screen name="VerifyCode" component={VerifyCode} />
         <Stack.Screen name="PhoneNumber" component={PhoneNumber} />
         <Stack.Screen name="Btab" component={MyTabs} />
+
         <Stack.Screen name="drawer" component={MyDrawer} />
       </Stack.Navigator>
     </NavigationContainer>

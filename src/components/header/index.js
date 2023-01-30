@@ -14,16 +14,15 @@ import images from '../../services/utilites/images';
 import {styles} from './style';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
-export default function Header({dark}) {
+export default function Header({dark, titil}) {
   return (
-    <SafeAreaView>
-      <TouchableOpacity style={styles.iconTop}>
-        <MaterialIcons
-          name="keyboard-arrow-left"
-          color={dark ? colors.primary : colors.white}
-          size={25}
-        />
-      </TouchableOpacity>
-    </SafeAreaView>
+    <TouchableOpacity style={styles.iconTop}>
+      <MaterialIcons
+        name="keyboard-arrow-left"
+        color={dark ? colors.primary : colors.white}
+        size={25}
+      />
+      <Text style={styles.hedtex}>{titil}</Text>
+    </TouchableOpacity>
   );
 }

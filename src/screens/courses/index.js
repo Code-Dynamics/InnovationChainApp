@@ -16,8 +16,10 @@ import {TextInput} from 'react-native-paper';
 import {colors} from '../../services';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import {useNavigation} from '@react-navigation/native';
 
 const Course = () => {
+  const navigation = useNavigation();
   const [All, setAll] = useState(true);
   const [Popular, setPopular] = useState(false);
   const [New, setNew] = useState(false);
@@ -119,7 +121,11 @@ const Course = () => {
           <View style={styles.parentcontainerCard}>
             {All && (
               <ScrollView showsVerticalScrollIndicator={false}>
-                <View style={styles.cardbgcolor}>
+                <TouchableOpacity
+                  style={styles.cardbgcolor}
+                  onPress={() => {
+                    navigation.navigate('VideoScreen');
+                  }}>
                   <View style={styles.cardcontentcontainer}>
                     <View style={styles.crdim}>
                       <Image
@@ -143,7 +149,7 @@ const Course = () => {
                       </View>
                     </View>
                   </View>
-                </View>
+                </TouchableOpacity>
               </ScrollView>
             )}
             {Popular && (

@@ -8,6 +8,8 @@ import Statistic from './statistic';
 import SuppportChat from './support';
 import PhoneNumber from './PhoneNumber';
 import VerifyCode from './VerifyCode';
+import Videoplyer from './videoscreen';
+
 export {
   IntroSliderScreen,
   Home,
@@ -19,4 +21,5 @@ export {
   PhoneNumber,
   VerifyCode,
   CreatAcouunt,
+  Videoplyer,
 };

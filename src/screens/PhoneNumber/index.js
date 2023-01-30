@@ -1,3 +1,4 @@
+import {useNavigation} from '@react-navigation/native';
 import React, {useRef, useState} from 'react';
 import {
   Image,
@@ -14,12 +15,13 @@ import images from '../../services/utilites/images';
 import {styles} from './style';
 
 export default function PhoneNumber() {
+  const navigation = useNavigation();
   const [value, setValue] = useState('');
   const [formattedValue, setFormattedValue] = useState('');
 
   const phoneInput = useRef(null);
   const handleContinue = () => {
-    console.log('continue here');
+    navigation.navigate('drawer');
   };
   return (
     <SafeAreaView>

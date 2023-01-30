@@ -9,17 +9,21 @@ import {
   View,
   TextInput,
 } from 'react-native';
-import {SlideOne, SlideTow, SlideThree} from '../../components';
-import Button from '../../components/Button';
 import {colors} from '../../services';
 import images from '../../services/utilites/images';
 import {styles} from './style';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const SuppportChat = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground source={images.background} style={styles.bg}>
-        <ImageBackground source={images.modal} style={styles.modal}>
+        <View style={styles.mini}>
+          <View style={styles.uperiimcon}>
+            <MaterialCommunityIcons name="minus-thick" style={styles.desh} />
+          </View>
+        </View>
+        <View style={styles.modal}>
           <View style={styles.profilediv}>
             <View style={styles.profileInnerdiv}>
               <View style={styles.proimg}>
@@ -88,9 +92,9 @@ const SuppportChat = () => {
               style={styles.input}
               placeholderTextColor={colors.disabledBg2}
             />
-            <Image source={images.chat} style={styles.chatIcon}/>
+            <Image source={images.chat} style={styles.chatIcon} />
           </View>
-        </ImageBackground>
+        </View>
       </ImageBackground>
     </SafeAreaView>
   );

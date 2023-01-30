@@ -49,7 +49,7 @@ const CustomDrawer = props => {
             <View>
               <Image source={images.spots} />
             </View>
-            <Text style={styles.dwerlistexwhite}>spots</Text>
+            <Text style={styles.dwerlistexwhite}>Spots</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.singleviewlisfeature}>

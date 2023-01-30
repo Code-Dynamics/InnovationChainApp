@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.innovationchainoffical"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:6:5-35:19
+14        android:name="com.innovationchainoffical.MainApplication"
+14-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\Toshiba\.gradle\caches\transforms-3\63a3df243d2d102452600006144a86df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher"
+19-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:10:7-46
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:12:7-38
+21        <activity
+21-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:15:7-24:17
+22            android:name="com.innovationchainoffical.SplashActivity"
+22-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:16:9-39
+23            android:exported="true"
+23-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:19:9-32
+24            android:label="@string/app_name"
+24-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:18:9-41
+25            android:theme="@style/SplashTheme" >
+25-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:17:9-43
+26            <intent-filter>
+26-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:20:9-23:25
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:21:11-63
+27-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:21:19-60
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:22:11-71
+29-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:22:21-68
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:26:7-34:18
+33            android:name="com.innovationchainoffical.MainActivity"
+33-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:27:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+34-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:29:9-118
+35            android:exported="true"
+35-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:32:9-32
+36            android:label="@string/app_name"
+36-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:28:9-41
+37            android:launchMode="singleTask"
+37-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:30:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\Users\Toshiba\Desktop\newapp\innovationChainOffical\android\app\src\main\AndroidManifest.xml:31:9-51
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.innovationchainoffical.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Toshiba\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Toshiba\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Toshiba\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Toshiba\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

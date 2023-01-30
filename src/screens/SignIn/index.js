@@ -18,7 +18,7 @@ export default function SignIn() {
     navigation.navigate('createaccount');
   };
   const usePhoneNum = () => {
-    console.log('use phone');
+    navigation.navigate('PhoneNumber');
   };
   const signUp = () => {
     navigation.navigate('drawer');

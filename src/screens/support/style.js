@@ -11,6 +11,24 @@ export const styles = StyleSheet.create({
     height: sizes.screenHeight,
     padding: sizes.baseMargin,
   },
+  mini: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    top: sizes.screenHeight * 0.1,
+    zIndex: 999,
+  },
+  uperiimcon: {
+    width: sizes.screenWidth * 0.1,
+    height: sizes.screenHeight * 0.05,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: colors.coinbox,
+    borderRadius: sizes.screenWidth * 0.08,
+  },
+  desh: {
+    color: colors.primary,
+    fontSize: fontSize.regular,
+  },
   modal: {
     height: sizes.screenHeight,
     width: sizes.screenWidth,
@@ -18,6 +36,7 @@ export const styles = StyleSheet.create({
     borderTopRightRadius: sizes.screenWidth * 0.13,
     borderTopLeftRadius: sizes.screenWidth * 0.13,
     alignSelf: 'center',
+    backgroundColor: colors.modalBg,
   },
   profilediv: {
     display: 'flex',
@@ -31,7 +50,7 @@ export const styles = StyleSheet.create({
   },
   proimg: {
     height: sizes.screenHeight * 0.07,
-    width: sizes.screenWidth * 0.135,
+    width: sizes.screenWidth * 0.154,
   },
   profilenamediv: {
     justifyContent: 'center',
@@ -119,9 +138,10 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.tab,
     height: sizes.screenHeight * 0.06,
     width: sizes.screenWidth * 0.9,
-    marginBottom: sizes.screenHeight * 0.25,
+    marginBottom: sizes.screenHeight * 0.27,
     alignSelf: 'center',
     borderRadius: sizes.screenWidth * 0.01,
+    // marginVertical: sizes.screenHeight * 0.02,
   },
   input: {
     color: colors.white,

@@ -13,8 +13,8 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.coinbox,
   },
   proimg: {
-    width: sizes.screenWidth * 0.22,
-    height: sizes.screenHeight * 0.1,
+    width: sizes.screenWidth * 0.24,
+    height: sizes.screenHeight * 0.11,
   },
   profilename: {
     color: colors.white,
@@ -47,7 +47,7 @@ export const styles = StyleSheet.create({
     paddingVertical: sizes.screenHeight * 0.03,
   },
   dwerlistext: {
-    fontSize: fontSize.h5,
+    fontSize: fontSize.h6,
     paddingHorizontal: sizes.screenWidth * 0.02,
     fontWeight: '600',
     color: colors.black,

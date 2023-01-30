@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_google.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_google.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_terms.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_terms.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnativephonenumberinput_node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnativephonenumberinput_node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_dashed.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_dashed.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_line.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_line.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_sajjad.jpg.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_sajjad.jpg"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_intrisliderfirstimage.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_intrisliderfirstimage.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xhdpi_splash.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xhdpi/splash.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xxhdpi_splash.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xxhdpi/splash.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_apple.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_apple.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_profile.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_profile.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_eth.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_eth.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/layout_launch_screen.xml.flat",
+        "source": "com.innovationchainoffical.app-main-29:/layout/launch_screen.xml"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_featurs.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_featurs.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_blist.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_blist.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_logout.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_logout.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xxxhdpi_splash.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_spots.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_spots.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnative_libraries_newappscreen_components_logo.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnative_libraries_newappscreen_components_logo.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_zoom.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_zoom.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_tipstrick.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_tipstrick.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_introslidersecondimage.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_introslidersecondimage.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_done.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_done.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_rate.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_rate.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnativephonenumberinput_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnativephonenumberinput_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_grayline.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_grayline.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_btc.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_btc.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_seetingicon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_seetingicon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_bnb.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_bnb.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable_background_splash.xml.flat",
+        "source": "com.innovationchainoffical.app-main-29:/drawable/background_splash.xml"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_icon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_icon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_onlinebadge.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_onlinebadge.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_modal.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_modal.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_bgscreen.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_bgscreen.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_facebook.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_facebook.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_support.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_support.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-mdpi_splash.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-mdpi/splash.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_cardimage.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_cardimage.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_telegram.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_telegram.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.innovationchainoffical.app-main-29:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_help.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_help.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_youtube.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_youtube.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_pastresults.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_pastresults.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_vector.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_vector.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_fb.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_fb.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_chat.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_chat.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_straightline.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_straightline.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/mipmap-hdpi_splash.png.flat",
+        "source": "com.innovationchainoffical.app-main-29:/mipmap-hdpi/splash.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_bg.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_bg.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_insta.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_insta.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_node_modules_reactnativevirtualkeyboard_src_backspace.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/node_modules_reactnativevirtualkeyboard_src_backspace.png"
+    },
+    {
+        "merged": "com.innovationchainoffical.app-merged_res-28:/drawable-mdpi_src_assets_introsliderthreeimage.png.flat",
+        "source": "com.innovationchainoffical.app-react-23:/drawable-mdpi/src_assets_introsliderthreeimage.png"
+    }
+]

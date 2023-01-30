@@ -20,8 +20,8 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   proimg: {
-    width: sizes.screenWidth * 0.22,
-    height: sizes.screenHeight * 0.1,
+    width: sizes.screenWidth * 0.24,
+    height: sizes.screenHeight * 0.11,
   },
   profilenamediv: {
     justifyContent: 'center',
